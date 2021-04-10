@@ -1,0 +1,138 @@
+@font-face {
+    font-family: "fontawesome";
+    font-weight: normal;
+    font-style : normal;
+           src : url(../fontawesome/webfonts/fa-brands-400.woff2);
+           src : url(../fontawesome/webfonts/fa-regular-400.woff2);
+           src : url(../fontawesome/webfonts/fa-solid-900.woff2);
+}
+
+.warna-dasar {
+    color: #003F6A;
+}
+
+.bg-dasar {
+    background-color: #003F6A;
+}
+
+.btn-dasar {
+    background-color: #003F6A;
+    border: 1px solid #003F6A;
+}
+
+.btn-dasar:hover {
+    background-color: #011a2b;
+    border: 1px solid #003F6A;
+}
+
+.nav-link-font {
+    font-size: 12px;
+}
+
+.navbar .navbar-nav .nav-item .nav-link {
+    color: black;
+}
+
+.navbar .navbar-nav .nav-item-bg:hover {
+    background-color: #003F6A;
+    transition: .4s;
+}
+
+.navbar .navbar-nav .nav-item-bg:hover .nav-link {
+    color: white;
+}
+
+.btn-outline-custom {
+    border: 1px solid #003F6A;
+    color: rgb(233, 233, 233);
+    background-color: #003F6A;
+}
+
+.btn-outline-custom:hover {
+    background-color: #002238;
+    color: rgb(255, 255, 255);
+}
+
+.fa-color {
+    color: #cecece;
+    transition: .3s;
+}
+
+.fa-color:hover {
+    color: #003F6A;
+    transition: .3s;
+}
+
+.teks-bates {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2; /* number of lines to show */
+    -webkit-box-orient: vertical;
+}
+
+.card-bayang {
+    box-shadow: 2px 2px 5px rgb(202, 202, 202);
+    transition: .3s;
+}
+
+.card-bayang:hover {
+    box-shadow: 2px 2px 5px rgb(143, 143, 143);
+    transform: scale(1.02);
+    transition: .3s;
+}
+
+#video .nav-link.active {
+    background-color: #003F6A;
+}
+
+#video .kerangka img {
+    -webkit-filter: brightness(0.5);
+}
+
+#video .kerangka a {
+    color: rgba(255, 255, 255, 0.342);
+    transition: .3s;
+}
+
+#video .kerangka a:hover {
+    color: rgb(255, 255, 255);
+    transition: .3s;
+}
+
+#video .kerangka{
+    position: relative;
+    text-align: center;
+}
+
+#video .kerangka .ikon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.owl-prev,
+.owl-next {
+    height: 50px;
+    width: 50px;
+}
+
+.owl-theme .owl-nav {
+    color: #003F6A;
+}
+
+.owl-theme .owl-nav [class*='owl-']:hover {
+    background-color: #003F6A;
+    color: #FFF;
+    text-decoration: none; 
+}
+
+footer {
+    background-image: url(../img/bg-pattern-black.jpg);
+    background-repeat: repeat;
+}
+
+.navbar-toggler {
+    border: none;
+}
